@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comsci.kalin.myfirstapp.MainActivity"
+    android:background="@drawable/bg27">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:textStyle="normal|bold"
+
+        android:id="@+id/txtTitleLiv"
+        android:textSize="@dimen/h1"
+        android:textIsSelectable="false"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="@string/MoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMoreInfo"
+        android:id="@+id/btnMoreInfo"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTitleLiv"
+        android:layout_above="@+id/btnMoreInfo"
+        android:id="@+id/livTraffic"
+        android:background="#beffffff"
+        android:layout_margin="@dimen/my_margin" />
+
+</RelativeLayout>
