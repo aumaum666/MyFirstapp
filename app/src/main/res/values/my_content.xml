@@ -2,26 +2,26 @@
 <resources>
 
     <string-array name="title">
-        <item>หัวช้อที่ 1</item>
-        <item>หัวช้อที่ 2</item>
-        <item>หัวช้อที่ 3</item>
-        <item>หัวช้อที่ 4</item>
-        <item>หัวช้อที่ 5</item>
-        <item>หัวช้อที่ 6</item>
-        <item>หัวช้อที่ 7</item>
-        <item>หัวช้อที่ 8</item>
-        <item>หัวช้อที่ 9</item>
-        <item>หัวช้อที่ 10</item>
-        <item>หัวช้อที่ 11</item>
-        <item>หัวช้อที่ 12</item>
-        <item>หัวช้อที่ 13</item>
-        <item>หัวช้อที่ 14</item>
-        <item>หัวช้อที่ 15</item>
-        <item>หัวช้อที่ 16</item>
-        <item>หัวช้อที่ 17</item>
-        <item>หัวช้อที่ 18</item>
-        <item>หัวช้อที่ 19</item>
-        <item>หัวช้อที่ 20</item>
+        <item>หัวข้อที่ 1</item>
+        <item>หัวข้อที่ 2</item>
+        <item>หัวข้อที่ 3</item>
+        <item>หัวข้อที่ 4</item>
+        <item>หัวข้อที่ 5</item>
+        <item>หัวข้อที่ 6</item>
+        <item>หัวข้อที่ 7</item>
+        <item>หัวข้อที่ 8</item>
+        <item>หัวข้อที่ 9</item>
+        <item>หัวข้อที่ 10</item>
+        <item>หัวข้อที่ 11</item>
+        <item>หัวข้อที่ 12</item>
+        <item>หัวข้อที่ 13</item>
+        <item>หัวข้อที่ 14</item>
+        <item>หัวข้อที่ 15</item>
+        <item>หัวข้อที่ 16</item>
+        <item>หัวข้อที่ 17</item>
+        <item>หัวข้อที่ 18</item>
+        <item>หัวข้อที่ 19</item>
+        <item>หัวข้อที่ 20</item>
     </string-array>
 
     <string-array name="detail">
