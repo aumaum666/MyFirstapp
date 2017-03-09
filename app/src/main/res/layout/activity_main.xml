@@ -19,21 +19,36 @@
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/black" />
 
-    <Button
-        android:text="@string/MoreInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickMoreInfo"
-        android:id="@+id/btnMoreInfo"
-        android:layout_alignParentBottom="true" />
-
     <ListView
+        android:id="@+id/livTraffic"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/layBotton"
         android:layout_below="@+id/txtTitleLiv"
-        android:layout_above="@+id/btnMoreInfo"
-        android:id="@+id/livTraffic"
-        android:background="#beffffff"
-        android:layout_margin="@dimen/my_margin" />
+        android:layout_margin="@dimen/my_margin"
+        android:background="#beffffff" />
+
+    <LinearLayout
+        android:id="@+id/layBotton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMoreInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickMoreInfo"
+            android:text="@string/moreInfo" />
+
+        <Button
+            android:id="@+id/btnAboutMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/aboutMe" />
+    </LinearLayout>
 
 </RelativeLayout>
