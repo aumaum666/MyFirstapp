@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Name">นาย : กลินท์ โอชะกะ</string>
+    <string name="Id">รหัส : 5711020660026</string>
+    <string name="Cousre">หลักสูตร : วิทยาการคอมพิวเตอร์</string>
+    <string name="Facebook">Facebook : https://www.facebook.com/kalin.ochaka</string>
+    <string name="Amtitle">About Me</string>
+
+</resources>
