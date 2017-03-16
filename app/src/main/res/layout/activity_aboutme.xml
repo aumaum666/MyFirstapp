@@ -17,7 +17,7 @@
         android:textSize="@dimen/h1" />
 
     <ImageView
-        android:id="@+id/amimage"
+        android:id="@+id/imvmypic"
         android:layout_width="@dimen/my_picture"
         android:layout_height="@dimen/my_picture"
         android:layout_below="@+id/amtext"
@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ambutton"
-        android:layout_below="@+id/amimage"
+        android:layout_below="@+id/imvmypic"
         android:layout_margin="@dimen/my_margin"
         android:background="#c8ffffff">
 
@@ -50,6 +50,8 @@
                 android:id="@+id/amdetail1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my_margin"
+                android:layout_marginTop="@dimen/my_margin"
                 android:text="@string/Name"
                 android:textSize="@dimen/h3" />
 
@@ -57,6 +59,8 @@
                 android:id="@+id/amdetail2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my_margin"
+                android:layout_marginTop="@dimen/my_margin"
                 android:text="@string/Id"
                 android:textSize="@dimen/h3" />
 
@@ -64,6 +68,8 @@
                 android:id="@+id/amdetail3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my_margin"
+                android:layout_marginTop="@dimen/my_margin"
                 android:text="@string/Cousre"
                 android:textSize="@dimen/h3" />
 
@@ -71,8 +77,19 @@
                 android:id="@+id/amdetail4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Facebook"
+                android:layout_marginLeft="@dimen/my_margin"
+                android:layout_marginTop="@dimen/my_margin"
                 android:onClick="onClickFacebook"
+                android:text="@string/Facebook"
+                android:textSize="@dimen/h3" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my_margin"
+                android:layout_marginTop="@dimen/my_margin"
+                android:text="@string/amtel"
                 android:textSize="@dimen/h3" />
         </LinearLayout>
     </ScrollView>
